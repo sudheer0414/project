@@ -1,0 +1,8 @@
+{
+  "schema": "./src/db/schema.ts",
+  "out": "./drizzle/migrations",
+  "dialect": "postgresql",
+  "dbCredentials": {
+    "url": "postgresql://postgres:kumar@localhost:5432/crud"
+ }
+}
